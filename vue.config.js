@@ -2,12 +2,10 @@ module.exports = {
   pluginOptions: {
     electronBuilder: {
       builderOptions: {
-        appId: 'electron',
-        //asar: false,
-        //compression: 'maximum',
-        productName: 'electron',
+        appId: 'electron_28581',
+        productName: 'electron_28581',
         extraMetadata: {
-          name: 'electron',
+          name: 'electron_28581',
         },
       },
       nodeIntegration: true,
@@ -17,7 +15,7 @@ module.exports = {
     mainapp: {
       entry: 'src/pages/mainapp/main.ts',
       template: 'public/index.html',
-      title: 'electron',
+      title: 'electron_28581',
     },
   },
 }
