@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
-/dist
-
+dist
+build
 
 # local env files
 .env.local
@@ -16,8 +16,19 @@ pnpm-debug.log*
 # Editor directories and files
 .idea
 .vscode
+.vs/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.iml
+.settings
+.project
+/coverage
+
+#Electron-builder output
+/dist_electron
+
+# confidential configuration
+application*.local.json
